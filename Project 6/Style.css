@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+}
+nav{
+    background-color: #270082;
+   top: 0;
+   position: sticky;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+  padding: 13px 0px;
+  margin: 0px 115px;
+  
+}
+.navigation h1,ul{
+    font-weight: 800;
+    font-size: 24px;
+color: white;
+
+}
+.navigation li {
+    transition-duration: 2s ease-in;
+}
+
+.navigation li:hover {
+    border-bottom: 3px solid yellow ;
+    transform-origin: left;
+  transition-duration: 2s ease-out;
+}
+
+.navigation ul{
+    font-weight: 500;
+    gap: 30px;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+   
+    }
+
+
+
+
+    /* Hero_section */
+
+    .Hero_section{
+    background-image: url(.//Images/Hero\ Image.png) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ display: grid;
+justify-self: center;
+justify-content: center;
+text-align: center;
+padding-top: 250px;
+}
+.hero_section_content{
+ display: grid;
+justify-self: center;
+justify-content: center;
+margin: 0px auto;
+
+}
+
+.Hero_section h1{
+    font-size: 72px;
+color: white;
+margin-bottom: 15px;
+}
+.Hero_section p{
+color: white;
+font-size: 18px;
+
+}
+#p_24px{
+    font-size:24px;
+}
+
+
+/* Music Section */
+
+.music_section{
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    height: 100vh;
+background-color: #281154
+
+}
+
+.music_icon{
+    display: flex;
+    justify-content: center;
+ 
+}
+.music_icon img{
+width: 50px;
+padding-top: 30px;
+}
+.music_icon p{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin-left: 5px;
+    padding-top: 30px;
+}
+.describe{
+    display: flex;
+   justify-content: center;
+    color: white;
+    font-size:30px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.full_describe{
+    display: flex;
+   justify-content: center;
+    color: white;
+    font-size:18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin: 30px 280px;
+    text-align: justify;
+    text-align: center;
+}
+
+.Trial_button button{
+      padding: 10px 20px;
+     background-color: red;
+     color: white;
+     font-size:18px;
+     font-weight: 400;
+     
+     text-align: justify;
+     text-align: center;
+}
+
+.Trial_button{
+    display: flex;
+    justify-content: center;
+     font-size:18px;
+     font-weight: 400;
+     margin-top: 30px;
+     text-align: justify;
+     text-align: center;
+}
+
+.Small_describe{
+    display: flex;
+   justify-content: center;
+    color: white;
+    font-size:15px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ipad_img{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ipad_img img{
+    width: 1000px;
+
+}
+
+
+/* white_section */
+.white_section{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height:1500px;
+    background-color: #f0ebeb;
+}
+
+
+
+.white_section_content h2{
+    padding-top:300px;
+    text-align: center;
+}
+
+.white_section_content h3{
+   text-align: center;
+   
+
+}
+
+.Read_More{
+   padding: 50px 0px;
+}
+.Read_More button{
+    padding: 10px 20px;
+    background-color: #281154;
+    color: white;
+    font-size:18px;
+    font-weight: 400;
+    text-align: justify;
+    text-align: center;
+}
+
+
+/* <!-- disco_section --> */
+.disco_section{
+    background-image: url(./Images/unsplash_aWXVxy8BSzc.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ display: grid;
+justify-self: center;
+justify-content: center;
+text-align: center;
+padding-top: 0px;
+}
+
+.disco_text_h2 {
+    margin-top: 250px;
+    font-size: 30px;
+    color: white;
+
+}
+.disco_text_h4{
+    width: 1000px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+}
+
+/* Gift_card_section */
+
+.Gift_card_section{
+    margin:100px 0px;
+    justify-content: center;
+
+}
+.divison{ 
+background-color: rgb(207, 207, 207);
+    height: 2px;
+}
+.gift_card{
+    display: flex;
+    flex-direction: row;
+  
+}
+.Gift_card_section{
+    display: flex;
+}
+
+.gift_card img{
+padding:  0px 40px;
+}
+.gift_card_content{
+    padding: 0px 40px;
+}
+
+.divison{
+    margin: 30px 0px;
+}
+
+.Read_More1{
+    margin: 0px;
+    padding: 0px;
+}
+.Read_More1 button{
+padding: 10px 20px;
+background-color: #281154;
+color: white;
+font-size:18px;
+font-weight: 400;
+text-align: justify;
+text-align: center;
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: #270082;
+    padding: 50px;
+}
+
+.links_container_footer{
+    height: max-content;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.links_container_footer h2{
+font-size: 20px;
+color: white;
+width: 250px;
+}
+.links li{
+    font-size: 16px;
+    list-style: none;
+    font-weight: 400;
+    color: #e3e3e3;
+    margin: 3px;
+}
+.links ul{
+    margin-top: 20px;
+}
+
+.divison1{
+    margin-top: 5px;
+    background-color: white;
+    height: 2px;
+}
+
+.copyright{
+    background-color: #3100a2;
+    bottom: 0;
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 10;
+    height: 50px;
+    align-items: center;
+}
